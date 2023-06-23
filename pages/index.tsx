@@ -1,6 +1,5 @@
 import Head from 'next/head'
 import Layout from '../components/layout'
-import Navbar from '../components/navbar/navbar'
 import HomePage from '../components/home/home'
 
 export default function Home() {
@@ -12,7 +11,6 @@ export default function Home() {
         </style>
       </Head>
       <HomePage></HomePage>
-      <Navbar></Navbar>
     </Layout>
   )
 }
